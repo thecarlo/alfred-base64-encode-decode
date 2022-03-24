@@ -1,0 +1,36 @@
+{
+  "name": "alfred-base64-encode-decode",
+  "version": "1.0.0",
+  "description": "Alfred package to Base64 decode and encoded string",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "src/decode.js",
+    "src/encode.js"
+  ],
+  "keywords": [
+    "base64",
+    "base64 decode",
+    "base64 encode",
+    "encode",
+    "decode",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
+  "author": {
+    "name": "Carlo van Wyk",
+    "email": "carlospamtrap@gmail.com",
+    "url": "https://humankode.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.12.3",
+    "base-64": "^1.0.0"
+  }
+}

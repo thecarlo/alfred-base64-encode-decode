@@ -1,0 +1,28 @@
+#node
+*.env
+node_modules/
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+!*.env.sample
+dist/
+.nyc_output/
+coverage/
+test-report.xml
+*.zip
+
+# mac
+.DS_STORE
+
+# vs code
+.vscode/*
+.history/
+*.vsix
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
