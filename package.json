@@ -1,6 +1,6 @@
 {
   "name": "alfred-base64-encode-decode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alfred package to Base64 decode and encoded string",
   "main": "index.js",
   "type": "module",
